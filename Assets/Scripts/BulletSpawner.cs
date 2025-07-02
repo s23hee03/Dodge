@@ -20,7 +20,7 @@ public class BulletSpawner : MonoBehaviour
     void Update()
     {
         timeAfterSpawn += Time.deltaTime;
-        Debug.Log("Time.deltaTime: " + Time.deltaTime);
+
 
         if (timeAfterSpawn >= spawnRate)
         {

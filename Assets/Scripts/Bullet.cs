@@ -14,6 +14,8 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+
+        Debug.Log("Bullet hit");
         if (other.tag == "Player")
         {
             PlayerController playerController = other.GetComponent<PlayerController>();

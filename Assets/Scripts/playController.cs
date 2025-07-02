@@ -21,9 +21,9 @@ public class PlayerController : MonoBehaviour
     {
         //수평과 수직 축 입력 값을 감지하여 저장
         float xinput = Input.GetAxis("Horizontal");
-        Debug.Log("xinput: " + xinput);
+        
         float zinput = Input.GetAxis("Vertical");
-        Debug.Log("zinput: " + zinput);
+        
 
         //실제 이동 속도를 입력 값과 이동 속력을 통해 결정
         float xSpeed = xinput * speed;

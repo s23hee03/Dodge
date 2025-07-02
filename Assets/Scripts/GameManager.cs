@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {   
         // SampleScene 씬을 다시 로드하여 게임을 재시작
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(0);
     }
 
     // 현재 게임을 게임 오버 상태로 변경하는 메서드
