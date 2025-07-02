@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "DodgeG.sln"
+    "dotnet.defaultSolution": "Dodge.sln"
 }
